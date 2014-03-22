@@ -1,0 +1,13 @@
+<body>
+
+{% if link %}
+You submitted {{link}}<br />
+It has been shortened to {{new_link}}
+{% endif %}
+
+<form name="link" action="/" method="POST">
+    
+    link: <input type="text" name="link">
+
+</form>
+</body>
